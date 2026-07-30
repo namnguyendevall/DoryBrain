@@ -1,0 +1,6 @@
+Sanity Report - Batch 0001
+Expected Files: 3600 (18 constraints * 2 experiments * 100 seeds)
+Total Log Files: 3600
+Empty Logs: 0
+Corrupted Logs: 0
+Elapsed Time: 312.80 seconds

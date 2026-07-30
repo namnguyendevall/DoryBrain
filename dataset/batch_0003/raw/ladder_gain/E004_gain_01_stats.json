@@ -1,0 +1,85 @@
+{
+  "seeds_tested": 100,
+  "survival": {
+    "mean": 100,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 100.0,
+    "ci95_upper": 100.0
+  },
+  "violations": {
+    "mean": 0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "resource_margin": {
+    "mean_resource": 15.0,
+    "median_resource": 15,
+    "min_resource": 15,
+    "max_resource": 15,
+    "p05_resource": 15,
+    "p95_resource": 15
+  },
+  "decision_entropy": 0.1943918578315762,
+  "productive_work": {
+    "mean": 3,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 3.0,
+    "ci95_upper": 3.0
+  },
+  "work_rate": {
+    "mean": 0.03,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.03,
+    "ci95_upper": 0.03
+  },
+  "comatose_fraction": 1.0,
+  "threshold_switches": {
+    "mean": 3,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 3.0,
+    "ci95_upper": 3.0
+  },
+  "starvation_entries": {
+    "mean": 2,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 2.0,
+    "ci95_upper": 2.0
+  },
+  "starvation_exits": {
+    "mean": 1,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 1.0,
+    "ci95_upper": 1.0
+  },
+  "first_starvation_tick": {
+    "mean": 13,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 13.0,
+    "ci95_upper": 13.0
+  },
+  "starvation_duration": {
+    "mean": 39.0,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 39.0,
+    "ci95_upper": 39.0
+  }
+}

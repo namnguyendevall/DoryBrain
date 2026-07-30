@@ -1,0 +1,14 @@
+{
+  "batch": "0012",
+  "protocol": "CSRP-0001 v0.1.0",
+  "experiment": "E013: Q-Lambda Agent (Temporal Credit Assignment)",
+  "start_time": "2026-07-29T18:09:47.103550",
+  "replications": 100,
+  "constraint_family": [
+    "ladder_work",
+    "ladder_gain",
+    "ladder_decay"
+  ],
+  "end_time": "2026-07-29T18:21:50.927395",
+  "elapsed_seconds": 723.8238446712494
+}

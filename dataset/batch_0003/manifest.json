@@ -1,0 +1,15 @@
+{
+  "batch": "0003",
+  "protocol": "CSRP-0001 v0.1.0",
+  "experiment": "Q005: Effect of Minimal Internal State on Functional Persistence",
+  "runner_commit": "HEAD",
+  "start_time": "2026-07-29T13:19:21.236604",
+  "replications": 100,
+  "constraint_family": [
+    "ladder_work",
+    "ladder_gain",
+    "ladder_decay"
+  ],
+  "end_time": "2026-07-29T13:28:11.770072",
+  "elapsed_seconds": 530.5334675312042
+}

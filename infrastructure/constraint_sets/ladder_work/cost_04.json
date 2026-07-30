@@ -1,0 +1,12 @@
+{
+  "id": "ladder_work/cost_04",
+  "description": "Work cost ladder level 4",
+  "version": "1.0",
+  "parameters": {
+    "initial_resource": 30,
+    "max_resource": 100,
+    "work_cost": 4,
+    "rest_gain": 2,
+    "passive_decay": 1
+  }
+}

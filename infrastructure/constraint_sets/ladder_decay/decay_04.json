@@ -1,0 +1,12 @@
+{
+  "id": "ladder_decay/decay_04",
+  "description": "Passive decay ladder level 4",
+  "version": "1.0",
+  "parameters": {
+    "initial_resource": 30,
+    "max_resource": 100,
+    "work_cost": 4,
+    "rest_gain": 2,
+    "passive_decay": 4
+  }
+}

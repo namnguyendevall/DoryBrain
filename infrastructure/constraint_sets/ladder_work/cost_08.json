@@ -1,0 +1,12 @@
+{
+  "id": "ladder_work/cost_08",
+  "description": "Work cost ladder level 8",
+  "version": "1.0",
+  "parameters": {
+    "initial_resource": 30,
+    "max_resource": 100,
+    "work_cost": 8,
+    "rest_gain": 2,
+    "passive_decay": 1
+  }
+}

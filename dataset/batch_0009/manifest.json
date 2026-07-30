@@ -1,0 +1,15 @@
+{
+  "batch": "0009",
+  "protocol": "CSRP-0001 v0.1.0",
+  "experiment": "Q008: Effect of Action Expansion (Storage) on Functional Persistence",
+  "runner_commit": "HEAD",
+  "start_time": "2026-07-29T16:18:57.702766",
+  "replications": 10,
+  "constraint_family": [
+    "ladder_work",
+    "ladder_gain",
+    "ladder_decay"
+  ],
+  "end_time": "2026-07-29T16:19:43.946607",
+  "elapsed_seconds": 46.24384045600891
+}

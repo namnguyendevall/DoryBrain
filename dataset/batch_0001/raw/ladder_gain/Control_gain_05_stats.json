@@ -1,0 +1,27 @@
+{
+  "seeds_tested": 100,
+  "survival": {
+    "mean": 53.78,
+    "variance": 1054.5975757575757,
+    "std": 32.47456813812273,
+    "ci95_margin": 6.365015355072055,
+    "ci95_lower": 47.41498464492795,
+    "ci95_upper": 60.145015355072054
+  },
+  "violations": {
+    "mean": 0.6,
+    "variance": 0.8282828282828283,
+    "std": 0.9101004495564368,
+    "ci95_margin": 0.1783796881130616,
+    "ci95_lower": 0.4216203118869384,
+    "ci95_upper": 0.7783796881130616
+  },
+  "resource_margin": {
+    "mean_resource": 12.04,
+    "median_resource": 1,
+    "min_resource": 0,
+    "p05_resource": 0,
+    "p95_resource": 70
+  },
+  "decision_entropy": 0.9995111134601002
+}

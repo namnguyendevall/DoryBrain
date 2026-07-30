@@ -1,0 +1,12 @@
+{
+  "id": "ladder_gain/gain_00",
+  "description": "Rest gain ladder level 0",
+  "version": "1.0",
+  "parameters": {
+    "initial_resource": 30,
+    "max_resource": 100,
+    "work_cost": 4,
+    "rest_gain": 0,
+    "passive_decay": 1
+  }
+}
