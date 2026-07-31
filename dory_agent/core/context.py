@@ -2,6 +2,30 @@ from typing import Dict, Any, Optional
 from pydantic import BaseModel
 from dory_agent.core.contracts import Goal, GoalId, ArtifactId, TransactionId, StepId
 
+class ServiceLocator:
+    """
+    Centralized registry for all core managers and services.
+    Replaces massive constructor DI and avoids coupling.
+    All attributes here should ideally be Interfaces in a real implementation.
+    """
+    def __init__(self):
+        self.artifact_manager = None
+        self.event_bus = None
+        self.event_store = None
+        self.memory_manager = None
+        self.permission_manager = None
+        self.transaction_engine = None
+        self.registry = None
+        self.virtual_fs = None
+        self.configuration: Dict[str, Any] = {}
+
+class RuntimeContext:
+    """
+    The Global Service Container. Lives for the lifecycle of the Dory process.
+    """
+    def __init__(self):
+        self.services = ServiceLocator()
+
 class ExecutionContext(BaseModel):
     """
     Data container for a specific goal/execution run.
@@ -16,28 +40,3 @@ class ExecutionContext(BaseModel):
     active_artifacts: list[ArtifactId] = []
     active_transactions: list[TransactionId] = []
     current_step_id: Optional[StepId] = None
-
-class RuntimeContext:
-    """
-    The Global Service Container. Lives for the lifecycle of the Dory process.
-    Contains Managers and Services, but NO execution data.
-    """
-    def __init__(
-        self,
-        artifact_manager,
-        event_bus,
-        event_store,
-        memory_manager,
-        permission_manager,
-        transaction_manager,
-        registry,
-        configuration: Dict[str, Any]
-    ):
-        self.artifact_manager = artifact_manager
-        self.event_bus = event_bus
-        self.event_store = event_store
-        self.memory_manager = memory_manager
-        self.permission_manager = permission_manager
-        self.transaction_manager = transaction_manager
-        self.registry = registry
-        self.configuration = configuration
