@@ -1,17 +1,38 @@
 <div align="center">
   <h1>🧠 DoryBrain (CSRP)</h1>
-  <p><strong>Cognitive System Research Project: An Experimental Platform for Reinforcement Learning, Adaptive Memory, and Evolutionary Optimization</strong></p>
+  <p><strong>The adaptive cognitive engine behind Dory, an autonomous AI work assistant.</strong></p>
 </div>
 
 ---
 
 ## 📖 Overview
 
-**DoryBrain** is an in-silico laboratory designed for the rigorous scientific study of cognitive architectures. It merges **Reinforcement Learning (RL)** with **Episodic Memory**, and uses an **Evolutionary Engine** to autonomously discover optimal hyperparameter configurations. 
+**Dory** is an autonomous AI work assistant built to help people create value, automate work, and generate income.
 
-This project was built with a **falsification-first** methodology, prioritizing extreme testing, negative controls, and equivalence testing over simple confirmatory results.
+**DoryBrain** is the research engine that powers Dory's adaptive learning capabilities. While modern LLMs provide reasoning and knowledge, DoryBrain explores how an AI assistant can continuously improve from experience through **Reinforcement Learning**, **Adaptive Memory**, and **Evolutionary Optimization**.
 
-### Core Discoveries (The F022 Hypothesis)
+```text
+ User
+   │
+   ▼
+ Dory
+ (AI Assistant)
+   │
+   ▼
+ DoryBrain
+ (Adaptive Cognitive Engine)
+```
+
+### Vision
+
+Our long-term vision is to build an AI assistant that works alongside people as a productive teammate—planning, creating, automating, learning from experience, and continuously improving to generate real-world value.
+
+---
+
+## 🔬 Core Discoveries (The F022 Hypothesis)
+
+DoryBrain was built with a **falsification-first** methodology, prioritizing extreme testing, negative controls, and equivalence testing over simple confirmatory results.
+
 Through extensive global landscape scanning (Global Grid Search), we discovered that evolution does not seek a delicate "needle in a haystack" optimal configuration. Instead, it finds a massive **Pareto Plateau**. Once the brain's Replay mechanism (Memory amplification) crosses an activation saturation threshold, any further investment in parameter optimization offers *no practically meaningful improvement* for both performance and survival. 
 
 ---
@@ -99,6 +120,27 @@ python run_phase7E_resilience.py
 To run the statistical analysis and generate the TOST equivalence reports:
 ```bash
 python analyze_phase7E.py
+```
+
+---
+
+## 🌐 The Dory Ecosystem
+
+```text
+Dory
+└── AI Work Assistant
+    ├── Browser Automation
+    ├── Coding
+    ├── Research
+    ├── Content Creation
+    ├── Business Automation
+    ├── Tool Use
+    └── DoryBrain (CSRP)
+        ├── Reinforcement Learning
+        ├── Adaptive Memory
+        ├── Evolutionary Optimization
+        ├── Continual Learning
+        └── Cognitive Systems Research
 ```
 
 ---
