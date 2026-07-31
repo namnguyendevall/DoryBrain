@@ -1,0 +1,193 @@
+{
+  "seeds_tested": 100,
+  "survival": {
+    "mean": 100,
+    "median": 100.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 100.0,
+    "ci95_upper": 100.0
+  },
+  "violations": {
+    "mean": 0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "resource_margin": {
+    "mean_resource": 5.0,
+    "median_resource": 5,
+    "min_resource": 5,
+    "max_resource": 5,
+    "p05_resource": 5,
+    "p95_resource": 5
+  },
+  "decision_entropy": 0.28639695711595625,
+  "productive_work": {
+    "mean": 5,
+    "median": 5.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 5.0,
+    "ci95_upper": 5.0
+  },
+  "work_rate": {
+    "mean": 0.05,
+    "median": 0.05,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.05,
+    "ci95_upper": 0.05
+  },
+  "steady_state_work_rate": {
+    "mean": 0.0,
+    "median": 0.0,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "comatose_fraction": 1.0,
+  "threshold_switches": {
+    "mean": 0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "starvation_entries": {
+    "mean": 0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "starvation_exits": {
+    "mean": 0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "first_starvation_tick": {
+    "mean": 100,
+    "median": 100.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 100.0,
+    "ci95_upper": 100.0
+  },
+  "starvation_duration": {
+    "mean": 0.0,
+    "median": 0.0,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "low_threshold_fraction": {
+    "mean": 0.0,
+    "median": 0.0,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "trend_correlation": {
+    "mean": 0.0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0,
+    "ci95_margin": 0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "delta_MAE": {
+    "mean": 0.0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0,
+    "ci95_margin": 0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "prediction_MAE": {
+    "mean": 2.83,
+    "median": 2.83,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 2.83,
+    "ci95_upper": 2.83
+  },
+  "parameter_error": {
+    "mean": 2.16751269035533,
+    "median": 2.16751269035533,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 2.16751269035533,
+    "ci95_upper": 2.16751269035533
+  },
+  "usage_fraction": {
+    "mean": 1.0,
+    "median": 1.0,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 1.0,
+    "ci95_upper": 1.0
+  },
+  "search_nodes": {
+    "mean": 13.72,
+    "median": 14.0,
+    "variance": 3.841984198419842,
+    "std": 1.9600980073506125,
+    "ci95_margin": 0.038417920944072,
+    "ci95_lower": 13.681582079055929,
+    "ci95_upper": 13.758417920944073
+  },
+  "tie_break_count": {
+    "mean": 1.75,
+    "median": 2.0,
+    "variance": 0.9475947594759476,
+    "std": 0.9734447901529637,
+    "ci95_margin": 0.01907951788699809,
+    "ci95_lower": 1.730920482113002,
+    "ci95_upper": 1.769079517886998
+  },
+  "u_term_contrib": {
+    "mean": 7.43,
+    "median": 4.0,
+    "variance": 41.74927492749275,
+    "std": 6.461367883621296,
+    "ci95_margin": 0.1266428105189774,
+    "ci95_lower": 7.303357189481022,
+    "ci95_upper": 7.556642810518977
+  },
+  "u_work_contrib": {
+    "mean": 12.0,
+    "median": 15.0,
+    "variance": 92.00920092009201,
+    "std": 9.592142665749504,
+    "ci95_margin": 0.1880059962486903,
+    "ci95_lower": 11.811994003751309,
+    "ci95_upper": 12.188005996248691
+  }
+}

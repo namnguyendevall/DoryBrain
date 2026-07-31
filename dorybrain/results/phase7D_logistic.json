@@ -1,0 +1,23 @@
+{
+  "ladder_gain/gain_05.json": {
+    "p_base": 0.10200500986236544,
+    "threshold": 0.4421121769241998,
+    "threshold_ci": 19.696468105738234,
+    "steepness": 0.1300248439707942,
+    "rsquared": 0.8629251885973127
+  },
+  "ladder_gain/gain_06.json": {
+    "p_base": 0.293220767447144,
+    "threshold": 8.346315240993386e-12,
+    "threshold_ci": 3.5238914667409613,
+    "steepness": 0.3985621849009897,
+    "rsquared": 0.9615223694274155
+  },
+  "ladder_gain/gain_07.json": {
+    "p_base": 0.747109754701353,
+    "threshold": 1.0172807902496217e-24,
+    "threshold_ci": 5.824921990014251,
+    "steepness": 0.5421339209621988,
+    "rsquared": 0.8667784443789538
+  }
+}

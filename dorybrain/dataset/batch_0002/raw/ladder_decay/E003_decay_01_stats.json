@@ -1,0 +1,45 @@
+{
+  "seeds_tested": 100,
+  "survival": {
+    "mean": 94.06,
+    "variance": 356.0569696969697,
+    "std": 18.869471897670312,
+    "ci95_margin": 3.698416491943381,
+    "ci95_lower": 90.36158350805663,
+    "ci95_upper": 97.75841649194338
+  },
+  "violations": {
+    "mean": 0.03,
+    "variance": 0.029393939393939392,
+    "std": 0.1714466079977653,
+    "ci95_margin": 0.033603535167561996,
+    "ci95_lower": -0.003603535167561997,
+    "ci95_upper": 0.063603535167562
+  },
+  "resource_margin": {
+    "mean_resource": 13.02,
+    "median_resource": 16,
+    "min_resource": 0,
+    "max_resource": 16,
+    "p05_resource": 1,
+    "p95_resource": 16
+  },
+  "decision_entropy": 0.7158912450705481,
+  "productive_work": {
+    "mean": 18.5,
+    "variance": 6.494949494949495,
+    "std": 2.5485190787886003,
+    "ci95_margin": 0.49950973944256566,
+    "ci95_lower": 18.000490260557434,
+    "ci95_upper": 18.999509739442566
+  },
+  "work_rate": {
+    "mean": 0.20543686486568838,
+    "variance": 0.0021213996890661196,
+    "std": 0.04605865487686456,
+    "ci95_margin": 0.009027496355865455,
+    "ci95_lower": 0.19640936850982293,
+    "ci95_upper": 0.21446436122155382
+  },
+  "comatose_fraction": 0.0
+}

@@ -1,0 +1,14 @@
+{
+  "batch": "0010",
+  "protocol": "CSRP-0001 v0.1.0",
+  "experiment": "Q009: Environment Modification (Invest Gain and Decay)",
+  "start_time": "2026-07-29T17:01:29.844883",
+  "replications": 10,
+  "constraint_family": [
+    "ladder_work",
+    "ladder_gain",
+    "ladder_decay"
+  ],
+  "end_time": "2026-07-29T17:02:14.808407",
+  "elapsed_seconds": 44.963523626327515
+}

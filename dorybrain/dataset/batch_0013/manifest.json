@@ -1,0 +1,14 @@
+{
+  "batch": "0013",
+  "protocol": "CSRP-0001 v0.1.0",
+  "experiment": "E014: Experience Replay Agent",
+  "start_time": "2026-07-29T18:35:05.314027",
+  "replications": 100,
+  "constraint_family": [
+    "ladder_work",
+    "ladder_gain",
+    "ladder_decay"
+  ],
+  "end_time": "2026-07-29T18:46:38.593419",
+  "elapsed_seconds": 693.2793920040131
+}

@@ -1,0 +1,112 @@
+{
+  "seeds_tested": 100,
+  "survival": {
+    "mean": 100,
+    "median": 100.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 100.0,
+    "ci95_upper": 100.0
+  },
+  "violations": {
+    "mean": 0,
+    "median": 0.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.0,
+    "ci95_upper": 0.0
+  },
+  "resource_margin": {
+    "mean_resource": 20.0,
+    "median_resource": 20,
+    "min_resource": 20,
+    "max_resource": 20,
+    "p05_resource": 20,
+    "p95_resource": 20
+  },
+  "decision_entropy": 0.4689955935892812,
+  "productive_work": {
+    "mean": 10,
+    "median": 10.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 10.0,
+    "ci95_upper": 10.0
+  },
+  "work_rate": {
+    "mean": 0.1,
+    "median": 0.1,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.1,
+    "ci95_upper": 0.1
+  },
+  "steady_state_work_rate": {
+    "mean": 0.08,
+    "median": 0.08,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.08,
+    "ci95_upper": 0.08
+  },
+  "comatose_fraction": 0.0,
+  "threshold_switches": {
+    "mean": 17,
+    "median": 17.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 17.0,
+    "ci95_upper": 17.0
+  },
+  "starvation_entries": {
+    "mean": 9,
+    "median": 9.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 9.0,
+    "ci95_upper": 9.0
+  },
+  "starvation_exits": {
+    "mean": 9,
+    "median": 9.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 9.0,
+    "ci95_upper": 9.0
+  },
+  "first_starvation_tick": {
+    "mean": 1,
+    "median": 1.0,
+    "variance": 0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 1.0,
+    "ci95_upper": 1.0
+  },
+  "starvation_duration": {
+    "mean": 1.0,
+    "median": 1.0,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 1.0,
+    "ci95_upper": 1.0
+  },
+  "low_threshold_fraction": {
+    "mean": 0.09,
+    "median": 0.09,
+    "variance": 0.0,
+    "std": 0.0,
+    "ci95_margin": 0.0,
+    "ci95_lower": 0.09,
+    "ci95_upper": 0.09
+  }
+}

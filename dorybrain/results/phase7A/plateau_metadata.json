@@ -1,0 +1,25 @@
+{
+  "global_max_fitness": 0.7496187500000001,
+  "threshold95": 0.7121378125000001,
+  "threshold99": 0.7421225625000001,
+  "total_nodes": 286,
+  "plateau95_nodes": 274,
+  "plateau99_nodes": 271,
+  "components": {
+    "1": {
+      "area": 274,
+      "peak": 0.7496187500000001,
+      "bbox": {
+        "beta": [
+          20.0,
+          500.0
+        ],
+        "decay": [
+          0.8,
+          1.0
+        ]
+      },
+      "density": 0.9963636363636363
+    }
+  }
+}
