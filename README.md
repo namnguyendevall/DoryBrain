@@ -16,6 +16,41 @@ Through extensive global landscape scanning (Global Grid Search), we discovered 
 
 ---
 
+## 🆚 Why DoryBrain Is Different (RL vs. LLM)
+
+One of the biggest questions in AI today is the relationship between **Reinforcement Learning (RL)** and **Large Language Models (LLMs)**. At first glance, they appear to solve similar problems, but they address fundamentally different aspects of intelligence.
+
+### Large Language Models
+LLMs are pre-trained on enormous amounts of human-generated text. Through this pretraining, they acquire broad prior knowledge about language, programming, reasoning patterns, and many real-world concepts. This allows an LLM-based agent to immediately perform tasks such as writing code, using software tools, browsing the web, and following natural language instructions.
+
+However, an LLM's behavior is largely determined by its pretraining and subsequent fine-tuning. While modern systems can learn from new interactions through external memory or retrieval, *continuously adapting their core behavior* remains an active research challenge.
+
+### DoryBrain
+DoryBrain starts from a completely different assumption. Instead of assuming extensive prior knowledge, it studies how a cognitive system can learn adaptive behavior from raw interaction with an environment.
+
+The project investigates questions such as:
+* How should an agent remember past experiences?
+* When should old memories be forgotten?
+* How does replay influence learning?
+* Which cognitive parameters are actually important?
+* How do robust cognitive architectures emerge through evolution?
+
+Rather than teaching an agent *what* to think, DoryBrain studies *how learning itself should work*.
+
+### Complementary, Not Competing
+DoryBrain is not intended to replace LLMs. Instead, it explores a complementary layer of intelligence:
+* **LLMs** provide extensive prior knowledge and reasoning capabilities.
+* **DoryBrain** investigates adaptive learning mechanisms that operate through ongoing interaction and experience.
+
+A future cognitive agent could combine both: an LLM for language understanding and planning, and a DoryBrain-inspired adaptive learning system for long-term experience accumulation, memory management, and continual adaptation.
+
+### Research Vision
+The long-term vision of DoryBrain is not to build another chatbot. It is to develop and experimentally validate general cognitive learning mechanisms that can eventually be integrated into future AI agents, providing more robust adaptation and scientifically grounded cognitive architectures.
+
+> **Note on Generalization:** DoryBrain is explicitly designed to study adaptation under changing environments. Whether these same adaptive mechanisms generalize to substantially different domains remains an empirical question rather than an assumption.
+
+---
+
 ## ✨ Key Features
 
 *   **🧬 Adaptive Memory Strategy:** An RL agent that systematically forgets obsolete curiosity counts while retaining core semantic knowledge (Q-values), preventing toxic replays and catastrophic interference during environmental shifts.
