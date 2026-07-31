@@ -5,6 +5,22 @@ from datetime import datetime
 import uuid
 
 # ============================================================================
+# 0. IDENTITY SYSTEM
+# ============================================================================
+
+class GoalId(str): pass
+class TaskId(str): pass
+class StepId(str): pass
+class ActionId(str): pass
+class ArtifactId(str): pass
+class TransactionId(str): pass
+class EventId(str): pass
+class WorkflowId(str): pass
+
+def generate_id() -> str:
+    return str(uuid.uuid4())
+
+# ============================================================================
 # 1. CAPABILITIES & TOOLS
 # ============================================================================
 
@@ -103,12 +119,23 @@ class EventType(str, Enum):
     CRITIC_EVALUATED = "critic_evaluated"
     GOAL_COMPLETED = "goal_completed"
     GOAL_FAILED = "goal_failed"
+    
+    # Filesystem / Artifact Events
+    ARTIFACT_CREATED = "artifact_created"
+    TRANSACTION_STAGED = "transaction_staged"
+    TRANSACTION_COMMITTED = "transaction_committed"
+    TRANSACTION_ROLLED_BACK = "transaction_rolled_back"
 
 class Event(BaseModel):
     """
-    Immutable event record for the Event Bus.
+    Immutable event record for strict Event Sourcing.
     """
-    event_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    event_id: EventId = Field(default_factory=lambda: EventId(generate_id()))
+    parent_event_id: Optional[EventId] = None
+    goal_id: Optional[GoalId] = None
+    workflow_id: Optional[WorkflowId] = None
+    correlation_id: Optional[str] = None
+    causation_id: Optional[str] = None
     timestamp: datetime = Field(default_factory=datetime.utcnow)
     event_type: EventType
     payload: Dict[str, Any]

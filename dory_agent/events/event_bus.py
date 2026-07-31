@@ -10,16 +10,13 @@ class EventBus:
     """
     Central Nervous System for the Agent Runtime.
     Responsible ONLY for broadcasting events to subscribers.
-    Does NOT store events itself (that is EventStore's job).
+    Does NOT store events itself. It is fully decoupled from EventStore.
     """
-    def __init__(self, store: EventStore):
+    def __init__(self):
         self._subscribers: Dict[EventType, List[Subscriber]] = {
             evt: [] for evt in EventType
         }
         self._global_subscribers: List[Subscriber] = []
-        
-        # The Store is always a global subscriber
-        self.subscribe_global(store.append)
 
     def subscribe(self, event_type: EventType, subscriber: Subscriber):
         """Subscribe to a specific event type."""
