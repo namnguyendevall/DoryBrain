@@ -1,39 +1,80 @@
 <div align="center">
-  <h1>🧠 DoryBrain (CSRP)</h1>
-  <p><strong>The adaptive cognitive engine behind Dory, an autonomous AI work assistant.</strong></p>
+  <h1>🧠 Dory & DoryBrain</h1>
+  <p><strong>An Autonomous AI Work Assistant & Its Adaptive Cognitive Engine</strong></p>
 </div>
 
 ---
 
 ## 📖 Overview
 
-**Dory** is an autonomous AI work assistant built to help people create value, automate work, and generate income.
+**Dory** is an AI productivity assistant designed to automate digital work and help individuals and businesses generate real-world value.
 
-**DoryBrain** is the research engine that powers Dory's adaptive learning capabilities. While modern LLMs provide reasoning and knowledge, DoryBrain explores how an AI assistant can continuously improve from experience through **Reinforcement Learning**, **Adaptive Memory**, and **Evolutionary Optimization**.
+Powered by **DoryBrain**, an experimental cognitive engine, Dory explores how adaptive memory, reinforcement learning, and continual learning can improve long-term decision making and autonomous workflows.
+
+While DoryBrain focuses on cognitive research, Dory focuses on practical productivity—helping users research, create content, automate workflows, write code, manage knowledge, and accomplish real-world tasks.
 
 ```text
- User
-   │
-   ▼
- Dory
- (AI Assistant)
-   │
-   ▼
- DoryBrain
- (Adaptive Cognitive Engine)
+                    DORY ECOSYSTEM
+
+                 ┌────────────────────┐
+                 │       Dory         │
+                 │ AI Productivity    │
+                 │     Assistant      │
+                 └─────────┬──────────┘
+                           │
+         ┌─────────────────┼─────────────────┐
+         │                 │                 │
+         ▼                 ▼                 ▼
+ Browser Agent      Coding Agent      Content Agent
+ (Web, Email)       (IDE, Git)       (Video, SEO)
+
+                           │
+                           ▼
+                 ┌────────────────────┐
+                 │    DoryBrain       │
+                 │ Cognitive Engine   │
+                 │ Research Platform  │
+                 └────────────────────┘
 ```
-
-### Vision
-
-Our long-term vision is to build an AI assistant that works alongside people as a productive teammate—planning, creating, automating, learning from experience, and continuously improving to generate real-world value.
 
 ---
 
-## 🔬 Core Discoveries (The F022 Hypothesis)
+## 🗺️ Product Roadmap
 
+### Dory v1: AI Desktop Assistant
+An intelligent interface to interact with your local environment. Similar to Siri, but designed for deep digital work.
+* Browser automation
+* Local file management
+* Terminal & IDE integration
+* Email & Calendar orchestration
+
+### Dory v2: AI Employee
+Transitioning from an assistant to an autonomous worker capable of executing complex workflows.
+* Market research
+* Affiliate marketing
+* SEO & content posting
+* Customer support & revenue tracking
+
+### Dory v3: Self-Improving Assistant
+The integration of **DoryBrain**. The AI begins learning from its own operational history.
+* *Example:* Posts a video at 20:00 -> Reach is low -> Dory remembers -> Next time posts at 18:00 -> Reach increases -> Updates memory -> Never repeats the same mistake.
+* This is where **Adaptive Memory** moves from theoretical research to practical value.
+
+### Dory v4: Digital Worker (24/7)
+A fully autonomous agent managing end-to-end business pipelines.
+* Scrapes trends -> Writes scripts -> Generates media -> Edits video -> Publishes -> Tracks analytics -> Adjusts strategy -> Delivers daily reports.
+* The user only needs to provide high-level goals.
+
+---
+
+## 🔬 DoryBrain: The Research Engine
+
+While Dory is the product, **DoryBrain (CSRP)** is the underlying scientific research project. It is an in-silico laboratory designed for the rigorous scientific study of cognitive architectures, merging **Reinforcement Learning (RL)** with **Episodic Memory**, and using an **Evolutionary Engine**.
+
+### Core Discoveries (The F022 Hypothesis)
 DoryBrain was built with a **falsification-first** methodology, prioritizing extreme testing, negative controls, and equivalence testing over simple confirmatory results.
 
-Through extensive global landscape scanning (Global Grid Search), we discovered that evolution does not seek a delicate "needle in a haystack" optimal configuration. Instead, it finds a massive **Pareto Plateau**. Once the brain's Replay mechanism (Memory amplification) crosses an activation saturation threshold, any further investment in parameter optimization offers *no practically meaningful improvement* for both performance and survival. 
+Through extensive global landscape scanning, we discovered that evolution does not seek a delicate "needle in a haystack" optimal configuration. Instead, it finds a massive **Pareto Plateau**. Once the brain's Replay mechanism (Memory amplification) crosses an activation saturation threshold, any further investment in parameter optimization offers *no practically meaningful improvement* for both performance and survival. 
 
 ---
 
@@ -42,69 +83,21 @@ Through extensive global landscape scanning (Global Grid Search), we discovered 
 One of the biggest questions in AI today is the relationship between **Reinforcement Learning (RL)** and **Large Language Models (LLMs)**. At first glance, they appear to solve similar problems, but they address fundamentally different aspects of intelligence.
 
 ### Large Language Models
-LLMs are pre-trained on enormous amounts of human-generated text. Through this pretraining, they acquire broad prior knowledge about language, programming, reasoning patterns, and many real-world concepts. This allows an LLM-based agent to immediately perform tasks such as writing code, using software tools, browsing the web, and following natural language instructions.
-
-However, an LLM's behavior is largely determined by its pretraining and subsequent fine-tuning. While modern systems can learn from new interactions through external memory or retrieval, *continuously adapting their core behavior* remains an active research challenge.
+LLMs are pre-trained on enormous amounts of human-generated text. They acquire broad prior knowledge about language, reasoning, and real-world concepts. This allows an LLM-based agent to immediately perform tasks such as writing code or browsing the web. However, *continuously adapting their core behavior* from experience remains an active research challenge.
 
 ### DoryBrain
-DoryBrain starts from a completely different assumption. Instead of assuming extensive prior knowledge, it studies how a cognitive system can learn adaptive behavior from raw interaction with an environment.
-
-The project investigates questions such as:
-* How should an agent remember past experiences?
-* When should old memories be forgotten?
-* How does replay influence learning?
-* Which cognitive parameters are actually important?
-* How do robust cognitive architectures emerge through evolution?
-
-Rather than teaching an agent *what* to think, DoryBrain studies *how learning itself should work*.
+DoryBrain starts from a completely different assumption. Instead of assuming extensive prior knowledge, it studies how a cognitive system can learn adaptive behavior from raw interaction with an environment. Rather than teaching an agent *what* to think, DoryBrain studies *how learning itself should work*.
 
 ### Complementary, Not Competing
 DoryBrain is not intended to replace LLMs. Instead, it explores a complementary layer of intelligence:
 * **LLMs** provide extensive prior knowledge and reasoning capabilities.
 * **DoryBrain** investigates adaptive learning mechanisms that operate through ongoing interaction and experience.
 
-A future cognitive agent could combine both: an LLM for language understanding and planning, and a DoryBrain-inspired adaptive learning system for long-term experience accumulation, memory management, and continual adaptation.
-
-### Research Vision
-The long-term vision of DoryBrain is not to build another chatbot. It is to develop and experimentally validate general cognitive learning mechanisms that can eventually be integrated into future AI agents, providing more robust adaptation and scientifically grounded cognitive architectures.
-
 > **Note on Generalization:** DoryBrain is explicitly designed to study adaptation under changing environments. Whether these same adaptive mechanisms generalize to substantially different domains remains an empirical question rather than an assumption.
 
 ---
 
-## ✨ Key Features
-
-*   **🧬 Adaptive Memory Strategy:** An RL agent that systematically forgets obsolete curiosity counts while retaining core semantic knowledge (Q-values), preventing toxic replays and catastrophic interference during environmental shifts.
-*   **🌍 System Physics Engine:** A customizable, rule-based simulation environment where agents must manage resources, balance work cost vs. rest gain, and navigate harsh constraints.
-*   **⚙️ Evolutionary Engine:** Automates the hyperparameter tuning process (learning rate, discount factor, replay capacity/intensity) through natural selection, cross-over, and mutation over multiple generations.
-*   **🌋 Resilience & Catastrophe Testing:** Built-in tools to inject mid-lifetime dose-response shocks (Physics, Cost, Resource, Opportunity) to test how robust the cognitive architecture is against sudden, extreme changes.
-*   **📊 Rigorous Statistical Tooling:** Instead of relying on flawed NHST ($p > 0.05$), DoryBrain evaluates architectural equivalence using **TOST (Two One-Sided Tests)**, Kruskal-Wallis, and AIC/BIC model comparisons for continuous saturating functions.
-
----
-
-## 🛠️ Architecture
-
-1.  `infrastructure/runner/`: The simulation core. Defines the physics, resource constraints, and terminal states.
-2.  `infrastructure/evolution/`: The genetic algorithm core. Contains `CognitiveGenome` (the hyperparameters) and `Population` (generation transitions and mutations).
-3.  `experiments/`: Contains various Actor implementations ranging from Random, Baseline Q-learning, to the final `E019C_Cognitive` (Adaptive Memory) agent.
-4.  `results/`: Holds the extracted data, trajectory mapping, and statistical reports from the 7 experimental phases.
-
----
-
-## 🔬 The 7-Phase Falsification Workflow
-
-The project is structured as a cumulative chain of evidence, designed to refute competing hypotheses:
-*   **Phases 1-2**: Establish baselines and reject simpler explanations.
-*   **Phases 3-6**: Incrementally increase policy capability, culminating in the evolutionary discovery of Adaptive Memory.
-*   **Phase 7**: The capstone experiment.
-    *   **7A & 7B**: Global Empirical Fitness Landscape mapping (discovery of the Plateau).
-    *   **7C**: Quadratic Interaction Regression (proving zero epistasis).
-    *   **7D**: Cross-environment model comparison (proving continuous saturating mechanisms over binary thresholds).
-    *   **7E**: Resilience TOST Equivalence testing (proving the Diminishing Returns hypothesis).
-
----
-
-## 🚀 Reproducibility
+## 🚀 Reproducibility (DoryBrain Research)
 
 A core tenet of DoryBrain is reproducibility. All experiments, seeds, and statistical tests can be re-run locally.
 
@@ -120,27 +113,6 @@ python run_phase7E_resilience.py
 To run the statistical analysis and generate the TOST equivalence reports:
 ```bash
 python analyze_phase7E.py
-```
-
----
-
-## 🌐 The Dory Ecosystem
-
-```text
-Dory
-└── AI Work Assistant
-    ├── Browser Automation
-    ├── Coding
-    ├── Research
-    ├── Content Creation
-    ├── Business Automation
-    ├── Tool Use
-    └── DoryBrain (CSRP)
-        ├── Reinforcement Learning
-        ├── Adaptive Memory
-        ├── Evolutionary Optimization
-        ├── Continual Learning
-        └── Cognitive Systems Research
 ```
 
 ---
